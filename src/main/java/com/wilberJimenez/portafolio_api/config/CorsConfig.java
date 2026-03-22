@@ -17,7 +17,7 @@ public class CorsConfig {
                         .allowedOrigins(
                                 "http://localhost:5173", // React dev (Vite)
                                 "http://localhost:3000", // por si usas CRA
-                                "https://tu-portfolio.vercel.app" // producción (lo actualizas después)
+                                "https://portfolio-web-wil1628.vercel.app" // producción
                 )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
