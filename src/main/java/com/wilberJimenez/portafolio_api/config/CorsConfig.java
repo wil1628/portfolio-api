@@ -15,10 +15,8 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
-                                "http://localhost:5173", // React dev (Vite)
-                                "http://localhost:3000", // por si usas CRA
-                                "https://portfolio-web-wil1628.vercel.app" // producción
-                )
+                                "http://localhost:5173",
+                                "https://portfolio-5flrde4sd-wil1628s-projects.vercel.app")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .maxAge(3600);
