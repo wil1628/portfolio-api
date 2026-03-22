@@ -83,46 +83,6 @@ docker run -p 8080:8080 \
   portfolio-api:latest
 ```
 
-## 📡 Endpoints
-
-La API estará disponible en `http://localhost:8080/api`
-
-## 🧪 Testing
-
-Ejecutar los tests:
-
-```bash
-./mvnw test
-```
-
-## 📝 Estructura del Proyecto
-
-```
-portfolio-api/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   └── resources/
-│   └── test/
-├── pom.xml
-├── Dockerfile
-├── mvnw
-└── README.md
-```
-
-## 🔧 Configuración
-
-La aplicación se configura mediante el archivo `application.properties` o variables de entorno:
-
-- `server.port` - Puerto de la aplicación (default: 8080)
-- `spring.datasource.url` - URL de conexión a PostgreSQL
-- `spring.datasource.username` - Usuario de base de datos
-- `spring.datasource.password` - Contraseña de base de datos
-
-## 📄 Licencia
-
-Este proyecto está bajo licencia MIT.
-
 ## 👨‍💻 Autor
 
 **Wilber Jimenez** - [GitHub](https://github.com/wil1628)
